@@ -15,6 +15,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/blootofficial",
   },
   {
+    name: "Bloot Doggs",
+    description: "Get ready to take your Bloot Doggs with you to the Metaverse.",
+    url: "https://opensea.io/collection/blootdoggsofficial"
+  },
+  {
     name: "Buildings (not for Weaks)",
     description: "It is basically worthless, but it is free for bloot holders to get a building.",
     url: "https://opensea.io/collection/blootbuildings"
@@ -25,18 +30,13 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/svbloot"
   },
   {
-    name: "Bloot Doggs",
-    description: "Get ready to take your Bloot Doggs with you to the Metaverse.",
-    url: "https://opensea.io/collection/blootdoggsofficial"
+    name: "Bliomes",
+    description: "Bliomes are detailed instructions of where to locate your bloot. It's still basically worthless.",
+    url: "https://opensea.io/collection/bliomes"
   },
   {
     name: "Bloot Real Estate (not for Weaks)",
     description: "It's basically worthless. Bloot holders can mint free real estate.",
     url: "https://opensea.io/collection/blootrealestate"
-  },
-  {
-    name: "Bliomes",
-    description: "Bliomes are detailed instructions of where to locate your bloot. It's still basically worthless.",
-    url: "https://opensea.io/collection/bliomes"
   },
 ];
