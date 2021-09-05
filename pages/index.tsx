@@ -25,8 +25,9 @@ export default function Home(): ReactElement {
    * @returns {Record<string, string>[]} randomized bags
    */
   const getRandomThreeBags = () => {
-    const shuffled = defaultBags.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 3);
+    // const shuffled = defaultBags.sort(() => 0.5 - Math.random());
+    // return shuffled.slice(0, 3);
+    return defaultBags;
   };
 
   return (
