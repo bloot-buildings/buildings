@@ -20,6 +20,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/blootdoggsofficial"
   },
   {
+    name: "Skill Stats (not for Weaks)",
+    description: "It's basically worthless. But what if...?",
+    url: "https://opensea.io/collection/skill-stats-not-for-weaks"
+  },
+  {
     name: "Buildings (not for Weaks)",
     description: "It is basically worthless, but it is free for bloot holders to get a building.",
     url: "https://opensea.io/collection/blootbuildings"
