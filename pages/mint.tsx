@@ -25,9 +25,9 @@ export default function Mint(): ReactElement {
           <h3>How do I mint buildings for bloot?</h3>
             <p>
                 1. Go to Etherscan contract page of <a href={"https://etherscan.io/address/0x8c574df5d5e6b06285e4342425a42e2008c6ccb4#writeContract"}>Bloot buildings</a> <br />
-                2. Click "Write Contract" <br />
-                3. If you are a bloot owner, click “mintWithBloot” and type in your bloot Token ID, and click "Write" <br />
-                4. If you don’t have bloot right now, click “mint” and type 0.015 and any token id number between #8001-#11950 if it hasn’t been minted.
+                2. Click <strong>Write Contract</strong> <br />
+                3. If you are a bloot owner, click <strong>mintWithBloot</strong> and type in your bloot Token ID, and click <strong>Write</strong> <br />
+                4. If you don’t have bloot right now, click <strong>mint</strong> and type 0.015 and any token id number between #8001-#11950 if it hasn’t been minted.
             </p>
         </div>
 
