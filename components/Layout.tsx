@@ -137,7 +137,7 @@ function Footer(): ReactElement {
   return (
     <div className={styles.footer}>
       <p>
-        Made with love by{" "}
+        Made with <span style={{ color: '#01FF01'}}>love</span> by{" "}
         <a
           href="https://twitter.com/bloot_building"
           target="_blank"
