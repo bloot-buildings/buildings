@@ -34,10 +34,8 @@ export default function Home(): ReactElement {
     <Layout>
       <div>
         <div className={styles.home__cta}>
-          {/* CTA title */}
           <h1>Bloot Buildings</h1>
 
-          {/* Quicklinks */}
           <ul>
             {quicklinks.map(({ name, url }, i) => {
               return (
@@ -50,18 +48,19 @@ export default function Home(): ReactElement {
             })}
           </ul>
 
-          {/* CTA Description */}
           <p>
             Bloot derivative project for giving this world some nice buildings. <br />
             Buildings are randomized generated and stored on chain.  <br />
+
+            {/*How to mint Buildings for bloot? <br />*/}
+            {/*If you have bloot alreay, click "mintWithBloot" and type your bloot id. <br />*/}
+            {/*If you don't have a bloot, click "mint" and type 0.015 and a token id between #8001~#11950*/}
           </p>
         </div>
 
-        {/* Rendering sample loot bags */}
         <div className={styles.home__feature}>
-          <span>Example Bags:</span>
+          <span>Example Buildings:</span>
           {getRandomThreeBags().map(({ id, attributes }, i) => (
-            // For each loot bag, render item and link to OpenSea
             <a
               href={`https://opensea.io/assets/0x8c574df5d5e6b06285e4342425a42e2008c6ccb4/${id}`}
               target="_blank"

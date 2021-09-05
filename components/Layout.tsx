@@ -88,7 +88,7 @@ function Header() {
   const { pathname } = useRouter();
   // All links
   const links = [
-    { name: "FAQ", path: "/faq" },
+    { name: "Resources", path: "/resources" },
   ];
 
   return (
@@ -136,13 +136,13 @@ function Footer(): ReactElement {
   return (
     <div className={styles.footer}>
       <p>
-        This website is{" "}
+        Made with love by{" "}
         <a
-          href="https://github.com/bloot-buildings/buildings"
+          href="https://twitter.com/bloot_building"
           target="_blank"
           rel="noopener noreferrer"
         >
-          open-source
+          Bloot buildings
         </a>
         .
       </p>

@@ -13,41 +13,40 @@ export default function FAQ(): ReactElement {
       <div className={styles.faq}>
         <h2>Frequently Asked Questions</h2>
 
-        <div className={styles.faq__item}>
-          <h3>What is Bloot?</h3>
-          <p>
-            Bloot
-          </p>
-        </div>
+        {/*<div className={styles.faq__item}>*/}
+        {/*  <h3>What is Bloot?</h3>*/}
+        {/*  <p>*/}
+        {/*    Bloot*/}
+        {/*  </p>*/}
+        {/*</div>*/}
 
-        <div className={styles.faq__item}>
-          <h3>What is Bloot buildings?</h3>
-          <p>
-            Bloot buildings
-          </p>
-        </div>
+        {/*<div className={styles.faq__item}>*/}
+        {/*  <h3>What is Bloot buildings?</h3>*/}
+        {/*  <p>*/}
+        {/*    Bloot buildings*/}
+        {/*  </p>*/}
+        {/*</div>*/}
 
-        <div className={styles.faq__item}>
-          <h3>Can I build with bloot?</h3>
-          <p>
-            build with bloot
-          </p>
-        </div>
+        {/*<div className={styles.faq__item}>*/}
+        {/*  <h3>Can I build with bloot?</h3>*/}
+        {/*  <p>*/}
+        {/*    build with bloot*/}
+        {/*  </p>*/}
+        {/*</div>*/}
 
-        <div className={styles.faq__item}>
-          <h3>Am I priced out of bloot buildings?</h3>
-          <p>
-            priced out
-          </p>
-        </div>
+        {/*<div className={styles.faq__item}>*/}
+        {/*  <h3>Am I priced out of bloot buildings?</h3>*/}
+        {/*  <p>*/}
+        {/*    priced out*/}
+        {/*  </p>*/}
+        {/*</div>*/}
 
-        {/* How do I value loot bags? */}
-        <div className={styles.faq__item}>
-          <h3>How do I value Bloot buildings?</h3>
-          <p>
-            value
-          </p>
-        </div>
+        {/*<div className={styles.faq__item}>*/}
+        {/*  <h3>How do I value Bloot buildings?</h3>*/}
+        {/*  <p>*/}
+        {/*    value*/}
+        {/*  </p>*/}
+        {/*</div>*/}
       </div>
     </Layout>
   );
