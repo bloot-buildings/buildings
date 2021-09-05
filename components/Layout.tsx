@@ -41,6 +41,7 @@ function Head(): ReactElement {
         name="description"
         content="Bloot derivative project for giving this world some nice buildings."
       />
+      <link rel="shortcut icon" href="favicon.png" />
 
       {/* OG + Faceook */}
       <meta property="og:type" content="website" />
@@ -50,7 +51,7 @@ function Head(): ReactElement {
         property="og:description"
         content="Bloot derivative project for giving this world some nice buildings."
       />
-      <meta property="og:image" content="https://lootproject.com/meta.png" />
+      <meta property="og:image" content="https://bloot-buildings.vercel.app/meta.jpg" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
@@ -60,7 +61,7 @@ function Head(): ReactElement {
         property="twitter:description"
         content="Bloot derivative project for giving this world some nice buildings."
       />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:image" content="https://bloot-buildings.vercel.app/meta.jpg" />
 
       {/* Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
