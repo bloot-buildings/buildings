@@ -88,6 +88,7 @@ function Header() {
   const { pathname } = useRouter();
   // All links
   const links = [
+    { name: "How to mint?", path: "/mint" },
     { name: "Resources", path: "/resources" },
   ];
 
