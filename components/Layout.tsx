@@ -51,7 +51,7 @@ function Head(): ReactElement {
         property="og:description"
         content="Bloot derivative project for giving this world some nice buildings."
       />
-      <meta property="og:image" content="https://bloot-buildings.vercel.app/meta.jpg" />
+      <meta property="og:image" content="https://bloot-buildings.vercel.app/preview.jpg" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
@@ -61,7 +61,7 @@ function Head(): ReactElement {
         property="twitter:description"
         content="Bloot derivative project for giving this world some nice buildings."
       />
-      <meta property="twitter:image" content="https://bloot-buildings.vercel.app/meta.jpg" />
+      <meta property="twitter:image" content="https://bloot-buildings.vercel.app/preview.jpg" />
 
       {/* Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
