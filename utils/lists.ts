@@ -2,7 +2,7 @@
 export const communityList: Record<string, string>[] = [
   {
     name: "Bloot Community Discord",
-    description: "For all things bloot and derivatives (note: high traffic)",
+    description: "For all things bloot and derivatives",
     url: "https://discord.gg/6H3E2Tyw",
   },
 ];
@@ -13,6 +13,11 @@ export const derivativesList: Record<string, string>[] = [
     name: "Bloot (not for Weaks)",
     description: "It's basically worthless.",
     url: "https://opensea.io/collection/blootofficial",
+  },
+  {
+    name: "Buildings (not for Weaks)",
+    description: "It is basically worthless, but it is free for bloot holders to get a building.",
+    url: "https://opensea.io/collection/blootbuildings"
   },
   {
     name: "svBloot",
@@ -28,11 +33,6 @@ export const derivativesList: Record<string, string>[] = [
     name: "Bloot Real Estate (not for Weaks)",
     description: "It's basically worthless. Bloot holders can mint free real estate.",
     url: "https://opensea.io/collection/blootrealestate"
-  },
-  {
-    name: "Buildings (not for Weaks)",
-    description: "It is basically worthless, but it is free for bloot holders to get a building.",
-    url: "https://opensea.io/collection/blootbuildings"
   },
   {
     name: "Bliomes",
